@@ -13,9 +13,20 @@ To write a Python program using **NumPy** that finds the indices where elements 
 5. **Print Indices**: Print the indices where the condition holds true.
 
 ## 🧾 Program
+```import numpy as np
+x=eval(input())
+y=eval(input())
+l1=np.array(x)
+l2=np.array(y)
 
-Add code here
+print(np.where(l1>l2))
+print(np.where(l1==l2))
+```
+
 
 ## Output
+![image](https://github.com/user-attachments/assets/fa216523-afa6-4b3d-b639-7dfe984c09ba)
 
 ## Result
+Thus the python program for element wise comparison between two numpy array has been implemented and executed successfully
+
